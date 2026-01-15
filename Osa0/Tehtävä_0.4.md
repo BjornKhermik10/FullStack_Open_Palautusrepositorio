@@ -1,9 +1,9 @@
+
 sequenceDiagram
     participant browser
     participant server
     
-    Note: Kirjoitan tähän vain mitä tapahtuis noten jälkeen tehtävässä annettu template olisi myös tapahtunut ennen tulevia pyyntöjä.
-    Note: Täytän formin ja painan "Save" näppäintä.
+    Note: I filled out the form with a new note and pressed "Save" to submit the form.
 
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
     activate server
