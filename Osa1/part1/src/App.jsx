@@ -1,3 +1,6 @@
+const Header = () => {
+  
+}
 const App = () => {
   const course = 'Half Stack application development'
   const part1 = 'Fundamentals of React'
@@ -23,5 +26,18 @@ const App = () => {
     </div>
   )
 }
+
+const App = () => {
+  // const-määrittelyt
+
+  return (
+    <div>
+      <Header course={course} />
+      <Content ... />
+      <Total ... />
+    </div>
+  )
+}
+
 
 export default App
